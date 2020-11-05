@@ -8,6 +8,6 @@
 </head>
 <body>
 	<!-- write the html code to display hyperlinks for user functionalities -->
-
+<jsp:include page="userhome1.jsp"></jsp:include>
 </body>
 </html>

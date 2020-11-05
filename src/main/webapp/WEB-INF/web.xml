@@ -7,10 +7,19 @@
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
   
+  <servlet>
+  	<servlet-name>UserController</servlet-name>
+  	<jsp-file>/register.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserController</servlet-name>
+  	<url-pattern>/registerNewUser</url-pattern>
+  </servlet-mapping>  
+
   
   <context-param>
   	<param-name>jdbcUrl</param-name>
-  	<param-value>jdbc:mysql://localhost:3306/test</param-value>
+  	<param-value>jdbc:mysql://localhost:3306/eLoan</param-value>
   </context-param>
   <context-param>
   	<param-name>jdbcUsername</param-name>
